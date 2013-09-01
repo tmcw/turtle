@@ -64,7 +64,7 @@ function _run() {
             ctx.lineTo(pos[i][0], pos[i][1]);
             ctx.stroke();
         });
-        if (step % 10 === 0) over();
+        // if (step % 10 === 0) over();
     }
 }
 
