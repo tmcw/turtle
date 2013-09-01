@@ -1,5 +1,5 @@
 var mirror = CodeMirror.fromTextArea(document.getElementById('code'), {
-    mode: 'javascript'
+    mode: 'coffeescript'
 });
 
 var tid;
