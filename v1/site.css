@@ -1,0 +1,32 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.all, #wrap .CodeMirror, #wrap {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+#wrap {
+    opacity:1;
+    transition:opacity 500ms ease-out;
+    -webkit-transition:opacity 500ms ease-out;
+}
+
+#wrap.hide {
+    opacity:0;
+}
+
+#wrap .CodeMirror {
+    background:transparent;
+    font-size:25px;
+}
+
+.CodeMirror {
+    height:100% !important;
+}
