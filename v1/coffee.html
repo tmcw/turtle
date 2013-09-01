@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>turtle</title>
+        <link rel='stylesheet' type='text/css' href='site.css' />
+        <link rel='stylesheet' type='text/css' href='codemirror-3.16/lib/codemirror.css' />
+        <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+        <meta name='viewport' content='initial-scale=1.0 maximum-scale=1.0'>
+    </head>
+    <body>
+        <canvas id='c' class='all'></canvas>
+        <div id='wrap'>
+          <textarea id='code' class='all'>turtle (t) ->
+  [200, 400, 100].map (a) ->
+    (t) -> ~~((Math.sin(t/a) * 1800) / 50) * 8
+</textarea>
+        </div>
+        <script src='codemirror-3.16/lib/codemirror.js'></script>
+        <script src='codemirror-3.16/mode/coffeescript/coffeescript.js'></script>
+        <script src='coffee-script.js'></script>
+        <script src='turtle-coffee.js'></script>
+        <script>
+            // autorun
+            onchange();
+        </script>
+    </body>
+</html>
