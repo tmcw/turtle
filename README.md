@@ -7,6 +7,10 @@ Capable of loading from GitHub Gists - the gist must contain a file named `turtl
 
 A CoffeeScript-language version is avaialble thanks to [Kai](https://twitter.com/syntagmatic)
 
+![](http://farm3.staticflickr.com/2833/9660471328_d1f091505f_c.jpg)
+
+![](http://farm3.staticflickr.com/2830/9657239591_48f8e208b6_c.jpg)
+
 ### Examples
 
 * http://macwright.org/turtle/v1/#6402090
